@@ -1,8 +1,8 @@
 import SQL_db as db
 
 def main():
-    
-    db = db.artstoreDB()
+
+    _db_ = db.artstoreDB()
     db.initialize_DB()
 
 if __name__ == '__main__':
